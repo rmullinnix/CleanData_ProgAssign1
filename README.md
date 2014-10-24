@@ -1,12 +1,12 @@
-== Getting and Cleaning Data - Course Project
+## Getting and Cleaning Data - Course Project
 
-== Code Book
+## Code Book
 
-=== Project Description
+### Project Description
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-=== Script - run_analysis.R
+### Script - run_analysis.R
 
   Description:  Creates a tidy data frame of the data collected from
     the accelerometers from the Samsung Galaxy S smartphone.
@@ -26,7 +26,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-=== Data
+### Data
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -43,7 +43,7 @@ UCI HAR Dataset/
   features.txt          (list of the columns for the X_test.txt and Y_text.txt files)
   features_info.txt     (not used)
  
-=== Resultant Set
+### Resultant Set
 
 Grouped By:  Subject ID, Activity Label
 
