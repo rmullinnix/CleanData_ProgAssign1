@@ -27,24 +27,25 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ### Data
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
-`UCI HAR Dataset/
-`  /test
-`    subject_test.txt    (subject ids for the corresponding rows in the X_test file)
-`    X_test.txt          (observations for subjects and activities across data items in features.txt)
-`    Y_text.txt          (activity ids for the corresponding rows in the X_test file)
-`  /train
-`    subject_train.txt   (subject ids for the corresponding rows in the X_train file)
-`    X_train.txt         (observations for subjects and activities across data items in features.txt)
-`    Y_train.txt         (activity ids for the corresponding rows in the X_train file)
-`  activity_labels.txt   (descriptive labels for the activities)
-`  features.txt          (list of the columns for the X_test.txt and Y_text.txt files)
-`  features_info.txt     (not used)
-` 
+```
+UCI HAR Dataset/
+  /test
+    subject_test.txt    (subject ids for the corresponding rows in the X_test file)
+    X_test.txt          (observations for subjects and activities across data items in features.txt)
+    Y_text.txt          (activity ids for the corresponding rows in the X_test file)
+  /train
+    subject_train.txt   (subject ids for the corresponding rows in the X_train file)
+    X_train.txt         (observations for subjects and activities across data items in features.txt)
+    Y_train.txt         (activity ids for the corresponding rows in the X_train file)
+  activity_labels.txt   (descriptive labels for the activities)
+  features.txt          (list of the columns for the X_test.txt and Y_text.txt files)
+  features_info.txt     (not used)
+``` 
 ### Resultant Set
-
+```
 Grouped By:  Subject ID, Activity Label
 
 Subject   int
 Activity  factor
  3 - 88 Observations  numeric
+```
