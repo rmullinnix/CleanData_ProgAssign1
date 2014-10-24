@@ -45,9 +45,8 @@ UCI HAR Dataset/
 ```
 Grouped By:  Subject ID, Activity Label
 
-Subject   int
-Activity  factor
- 3 - 88 Observations  numeric
+ Subject                             : int
+ Activity                            : factor   [ LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS ]
  tBodyAcc-mean()-X                   : numeric
  tBodyAcc-mean()-Y                   : numeric
  tBodyAcc-mean()-Z                   : numeric
